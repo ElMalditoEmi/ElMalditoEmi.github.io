@@ -153,7 +153,7 @@ img {
 
 .navbar-custom {
   background-color: var(--navbar-col);
-  border-bottom: 1px solid var(--navbar-border-col);
+  border-bottom: 1px solid var(--link-col);
   font-family: var(--header-font);
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
@@ -207,6 +207,7 @@ img {
   text-transform: uppercase;
   font-size: 0.8125rem;
   letter-spacing: 0.0625rem;
+  color: var(--footer-link-col);
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -224,10 +225,11 @@ img {
 .navbar-toggler {
   font-size: 1rem;
   margin: 0.5rem 0;
+  background-color: #ff6abc;
 }
 .navbar-custom .navbar-toggler:focus,
 .navbar-custom .navbar-toggler:hover {
-  background-color: initial;
+  background-color: #f859b1;
 }
 
 .navbar-custom .navbar-toggler[aria-expanded="true"] {
@@ -408,7 +410,7 @@ img {
 
 footer {
   padding: 1.875rem 0;
-  border-top: 1px var(--footer-col) solid;
+  border-top: 1px var(--link-col) solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
   background-color: var(--footer-col);
