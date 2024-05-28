@@ -1024,9 +1024,9 @@ pre {
 #beautifuljekyll-search-overlay {
   font-family: var(--header-font);
   display: none;
-  z-index: 999999;
+  z-index: 9999;
   position: fixed;
-  background: rgba(0,0,0,0.9);
+  background: rgba(0,0,0,0.4);
   left: 0;
   right: 0;
   top: 0;
@@ -1041,7 +1041,7 @@ pre {
   cursor: pointer;
   right: 25%;
   margin-right: 2rem;
-  color: #555;
+  color: var(--body-font);
   font-size: 2rem;
   line-height: 2rem;
   font-weight: bold;
@@ -1051,14 +1051,14 @@ pre {
 }
 #nav-search-input {
   text-align: center;
-  background: #e7edee;
+  background: var(--footer-col);
   margin: auto;
   display: block;
   font-size: 2rem;
   width: 50%;
-  transition: width 300ms ease;
-  color: #222;
-  border-radius: 5rem;
+  transition: width 500ms ease;
+  color: var(--body-font);
+  border-radius: 0.3rem;
   outline: none;
   border: none;
   padding: 0 3rem;
@@ -1081,8 +1081,8 @@ pre {
   }
 }
 #nav-search-input:focus {
-  background: #f3f8fe;
-  box-shadow: 0px 0.15rem 1rem #e7f4ff;
+  background: var(--footer-col);
+  box-shadow: 0px 0.15rem 1rem var(--page-col);
   outline: none;
 }
 
