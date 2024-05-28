@@ -19,8 +19,8 @@ layout: null
   --footer-hover-col: {{ site.footer-hover-col | default: "#0085A1" }};
 
   /* common CSS variables */
-  --body-font: 'Lora', 'Times New Roman', serif;
-  --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --body-font: 'Inconsolata',serif;
+  --header-font: 'Inconsolata', sans-serif;
   --mid-col: #808080;
 }
 
@@ -173,9 +173,9 @@ img {
 
 .navbar-custom .navbar-brand {
   line-height: 1.5;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-  font-size: 1.125rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 2.125rem;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -205,7 +205,7 @@ img {
 
 .navbar-custom .navbar-nav .nav-item {
   text-transform: uppercase;
-  font-size: 0.8125rem;
+  font-size: 1.1rem;
   letter-spacing: 0.0625rem;
 }
 
