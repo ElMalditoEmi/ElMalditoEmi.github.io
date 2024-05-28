@@ -19,8 +19,8 @@ layout: null
   --footer-hover-col: {{ site.footer-hover-col | default: "#0085A1" }};
 
   /* common CSS variables */
-  --body-font: 'Inconsolata', 'Times New Roman', serif;
-  --header-font: 'Inconsolata', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --body-font: 'Roboto Mono', 'Times New Roman', serif;
+  --header-font: 'Roboto Mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --mid-col: #808080;
 }
 
