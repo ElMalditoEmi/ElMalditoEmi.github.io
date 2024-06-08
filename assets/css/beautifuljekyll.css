@@ -1135,6 +1135,11 @@ pre {
   padding: 20px;
   border: 1px solid var(--link-col);
   border-radius: 10px;
+
+  /* Para espaciarla de las demas cajas */
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
 }
 
 .box::before {
