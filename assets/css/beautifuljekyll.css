@@ -1128,7 +1128,7 @@ pre {
 
 .box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   overflow-wrap: anywhere;
 
   position: relative;
@@ -1139,7 +1139,9 @@ pre {
   /* Para espaciarla de las demas cajas */
   margin-bottom: 2rem;
   margin-top: 2rem;
-
+}
+.box li {
+  margin-left: 1rem;
 }
 
 .box::before {
